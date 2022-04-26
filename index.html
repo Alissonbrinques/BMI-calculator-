@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -13,16 +13,16 @@
 
   <section class="container">
     <h1>Calculate your BMI</h1>
-    <form action="/" id="formulario" method="POST">
-      <label for="peso">Weight
-      </label>
-      <input type="text" id="peso" name="peso">
-      <label for="altura">Height</label>
-      <input type="text" id="altura" name="altura">
-      <button type="submit">Enviar</button>
+    <h3 class="class_pt">Calcule seu IMC</h3>
+    <form action="/" id="form" method="POST">
+      <label for="weight">Weight<span class="class_pt"> (Largura)</span></label>
+      <input type="text" id="weight" name="weight">
+      <label for="height">Height<span class="class_pt"> (Altura)</span></label>
+      <input type="text" id="height" name="height">
+      <button type="submit">To send</button>
     </form>
 
-    <div id="resultado"></div>
+    <div id="result"></div>
   </section>
 
   <script src="./assets/js/main.js"></script>
